@@ -1,0 +1,82 @@
+#canvas {
+  margin: 10px;
+  border: 1px solid #000;
+  float: left;
+}
+
+#infoAboutCoordinatesOfSelectedPoints {
+  overflow: hidden;
+}
+
+#infoAboutCoordinatesOfIntersectionPointsOfTwoCircles {
+  overflow: hidden;
+}
+
+button {
+  margin-top: 10px;
+  margin-right: 10px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#about_btn {
+  background-color: #4caf50;
+}
+
+#reset {
+  background-color: #e61818;
+}
+
+#closeAbout {
+  background-color: #3e3232;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.about {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+}
+
+h2 {
+  text-align: start;
+}
+
+h4 {
+  margin-top: 0;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 500px;
+  background-color: #fff;
+  margin: auto;
+  margin-top: 50px;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.about-content p {
+  margin-top: 0;
+}
+
+.about-content button {
+  margin-top: 20px;
+}
